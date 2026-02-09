@@ -1,0 +1,24 @@
+{
+  "name": "my-helper",
+  "version": "1.0.0",
+  "description": "Watches folders for images and generates AI-powered marketplace descriptions",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "watch": "node src/index.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://local_proxy@127.0.0.1:51331/git/matheus1lva/My-helper"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^5.0.0",
+    "dotenv": "^17.2.4",
+    "openai": "^6.18.0",
+    "sharp": "^0.34.5"
+  }
+}
